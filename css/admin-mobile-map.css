@@ -1,0 +1,60 @@
+.map-container {
+	position: relative;
+	width: 48%;
+	float: left;
+}
+
+.sample-area p {
+	font-size: 32px;
+	color: red;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.map-controller {
+	position: relative;
+	width: 48%;
+	float: right;
+}
+
+.map-field {
+	border: 5px solid #1F497D;
+	background: #ddd;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+.map-field legend {
+	background: #1F497D;
+	color: #fff;
+	padding: 5px 10px ;
+	font-size: 32px;
+	line-height: normal;
+	border-radius: 5px;
+	box-shadow: 0 0 0 5px #ddd;
+	margin-left: 20px;
+}
+
+.map-detail span {
+	display: block;
+	width: 100px;
+	line-height: 28px;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0 5px 0 20px;
+	text-align: right;
+	float: left;
+}
+
+.map-detail input[type="button"] {
+	margin-bottom: 5px;
+	float: left;
+}
+
+.map-detail input[type="text"] {
+	margin-bottom: 5px;
+	float: left;
+	height: 28px;
+	width: 222px;
+}
+
